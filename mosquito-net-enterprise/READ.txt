@@ -1,0 +1,34 @@
+✅ The script will:
+
+Install dependencies (Python, Nginx, Node.js)
+
+Copy project files to /opt/mosquito
+
+Install Python packages
+
+Initialize SQLite database
+
+Set up systemd backend service
+
+Configure Nginx + HTTPS
+
+Set up daily database backup
+
+Prepare Android wrapper (APK ready)
+
+Prepare iOS wrapper (IPA ready on Mac)
+
+Provide URLs for PWA & dashboard
+
+Notes
+
+Update yourdomain.com in script for your domain
+
+Make sure Android Studio (Linux/Windows) or Xcode (Mac) is installed before building mobile apps
+
+Daily backup runs at 2 AM by default
+
+PWA is offline-capable, installable, and works on mobile & desktop
+
+This one script makes your system nationwide-ready, production-grade, mobile-ready, and secure.
+

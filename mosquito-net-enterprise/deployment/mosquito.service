@@ -1,0 +1,9 @@
+[Unit]
+Description=Mosquito System
+After=network.target
+[Service]
+ExecStart=/usr/bin/python3 /opt/mosquito/server/server.py
+Restart=always
+User=www-data
+[Install]
+WantedBy=multi-user.target

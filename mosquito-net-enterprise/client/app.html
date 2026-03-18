@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<header>馃 Mosquito Net System</header>
+<div class="card">
+<h3>Register Patient</h3>
+<input id="name" placeholder="Name">
+<input id="age" type="number">
+<input id="sex" placeholder="Sex">
+<input id="loc" placeholder="Location">
+<input id="district" placeholder="District">
+<input id="nin" placeholder="NIN">
+<button onclick="savePatient()">Save</button>
+</div>
+<div class="card">
+<h3>Distribute Net</h3>
+<input id="pid" placeholder="Patient ID">
+<button onclick="distribute()">Distribute</button>
+</div>
+<script src="app.js"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}</script>
+</body>
+</html>

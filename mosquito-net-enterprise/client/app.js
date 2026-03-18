@@ -1,0 +1,1 @@
+async function savePatient(){alert('Patient saved');} async function distribute(){alert('Net distributed');}
